@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="test.js" defer></script>
+    <title>SeaBatle [Bug Test Mode]</title>
+</head>
+<body>
+<div class="firstTitle"><H1>Морской бой</H1></div>
+<div class="wrapper">
+<div class="controlPanel">
+<div class="newGame">
+		<button>Новая Игра</button>
+</div>
+<div class="manual">
+	<button class="inGame" disabled>Ручная растановка</button>
+</div>
+<div class="column">
+	<div class="port">
+		<form action="" name="formPaluba">
+			<select class="paluba">
+  				<option class="switchDeck" name="">...</option>
+  				<option class="switchDeck" name="">1-но палубнный</option>
+  				<option class="switchDeck" name="">2-ых палубнный</option>
+  				<option class="switchDeck" name="">3-ых палубнный</option>
+  				<option class="switchDeck" name="">4-ых палубнный</option>
+			</select>
+		</form>
+	</div>
+	<div class="direction">
+			<form action="" name="formDirection">
+				<p><input type="checkbox" name="" placeholder="" value=""><span>Вертикальный</span></p>
+			</form>
+		<div class="clear-all"><button class="inGame" disabled>Очистить все поля!</button></div>
+	</div>
+</div>
+<div class="automatic">
+	<button class="inGame" disabled>Авторастановка</button>
+</div>
+<div class="startbattle">
+	<button disabled>Начать бой!</button>
+</div>
+<div class="finishbattle">
+	<button disabled>Конец игры!</button>
+</div>
+</div>
+<div id="batleFieldUser"></div>
+<div id="batleFieldComp"></div>
+</div>
+<div id=shipsLog></div>
+</body>
+</html>
